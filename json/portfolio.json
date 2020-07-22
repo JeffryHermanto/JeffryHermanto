@@ -1,0 +1,142 @@
+[
+  {
+    "filter": "mobile-apps",
+    "image": "loadsmile.jpg",
+    "type": "Mobile Apps",
+    "title": "Loadsmile",
+    "url": "#"
+  },
+  {
+    "filter": "web-site",
+    "image": "angel_masterclass.jpg",
+    "type": "Web Site",
+    "title": "Angel Masterclass",
+    "url": "https://www.angel-masterclass.com"
+  },
+  {
+    "filter": "open-source",
+    "image": "native_updater.jpg",
+    "type": "Open Source",
+    "title": "Native Updater",
+    "url": "https://pub.dev/packages/native_updater"
+  },
+  {
+    "filter": "web-site",
+    "image": "mcc_back_office.jpg",
+    "type": "Web Site",
+    "title": "MCC Back Office",
+    "url": "https://mcc-indonesia.web.app"
+  },
+  {
+    "filter": "mobile-apps",
+    "image": "mcc_bsd_app.jpg",
+    "type": "Mobile Apps",
+    "title": "MCC BSD Apps",
+    "url": "https://apps.apple.com/us/app/mcc-id/id1492078811?ls=1"
+  },
+  {
+    "filter": "desktop-app",
+    "image": "attendance_point_system.jpg",
+    "type": "Desktop App",
+    "title": "Attendance Point System",
+    "url": "#"
+  },
+  {
+    "filter": "mobile-apps",
+    "image": "etalaseku.jpg",
+    "type": "Mobile Apps",
+    "title": "Etalaseku",
+    "url": "https://apps.apple.com/no/app/etalase/id1468997570?l=nb"
+  },
+  {
+    "filter": "mobile-apps",
+    "image": "takeda_reader.jpg",
+    "type": "Mobile Apps",
+    "title": "Takeda Reader",
+    "url": "https://apps.apple.com/id/app/takeda-reader/id1459471264?l=id"
+  },
+  {
+    "filter": "web-site",
+    "image": "lirix.jpg",
+    "type": "Web Site",
+    "title": "Lirix",
+    "url": "https://flamboyant-nightingale-c18342.netlify.app"
+  },
+  {
+    "filter": "web-site",
+    "image": "gaji_cermat.jpg",
+    "type": "Web Site",
+    "title": "Gaji Cermat",
+    "url": "https://jeffryhermanto.github.io/GajiCermat/"
+  },
+  {
+    "filter": "web-site",
+    "image": "kpm.jpg",
+    "type": "Web Site",
+    "title": "Kalkulator Perjalanan Medis",
+    "url": "https://jeffryhermanto.github.io/GajiCermat/https://hopeful-wright-cc6f7a.netlify.app/#/"
+  },
+  {
+    "filter": "web-site",
+    "image": "tiket_valet.jpg",
+    "type": "Web Site",
+    "title": "Tiket Valet",
+    "url": "https://pensive-boyd-d6dec7.netlify.app/#/"
+  },
+  {
+    "filter": "web-site",
+    "image": "toko_crypto.jpg",
+    "type": "Web Site",
+    "title": "Toko Crypto",
+    "url": "https://brave-montalcini-3cbdab.netlify.app/#/"
+  },
+  {
+    "filter": "web-site",
+    "image": "nutrix.jpg",
+    "type": "Web Site",
+    "title": "Nutrix",
+    "url": "https://nutrix-29e3f.firebaseapp.com"
+  },
+  {
+    "filter": "web-site",
+    "image": "nutrix.jpg",
+    "type": "Web Site",
+    "title": "Nutrix",
+    "url": "https://nutrix-29e3f.firebaseapp.com"
+  },
+  {
+    "filter": "web-site",
+    "image": "lifegems.jpg",
+    "type": "Web Site",
+    "title": "LifeGems",
+    "url": "https://lifegems-e4989.firebaseapp.com"
+  },
+  {
+    "filter": "web-site",
+    "image": "mamican.jpg",
+    "type": "Web Site",
+    "title": "Mamican",
+    "url": "https://jeffryhermanto.github.io/Mamican/"
+  },
+  {
+    "filter": "web-site",
+    "image": "spu.jpg",
+    "type": "Web Site",
+    "title": "Survey Pengembangan Usaha",
+    "url": "https://survey-pengembangan-usaha.firebaseapp.com/index.html"
+  },
+  {
+    "filter": "open-source",
+    "image": "resume_npm.jpg",
+    "type": "Open Source",
+    "title": "Resume as NPM",
+    "url": "https://www.npmjs.com/package/jeffryhermanto"
+  },
+  {
+    "filter": "web-site",
+    "image": "nerf_war.jpg",
+    "type": "Web Site",
+    "title": "NERF War",
+    "url": "https://jeffryhermanto.github.io/NERFWar/"
+  }
+]

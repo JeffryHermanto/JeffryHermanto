@@ -1,0 +1,17 @@
+{
+  "name": "jeffry_hermanto",
+  "version": "1.0.0",
+  "description": "Software Engineer Companies LOVE to HIRE",
+  "author": "Jeffry Hermanto",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
