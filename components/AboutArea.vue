@@ -17,11 +17,7 @@
             <div class="section-title mb-50">
               <h2>About Me</h2>
             </div>
-            <p>
-              I’m a Software Engineer. I have a passion for creating clean,
-              beautiful, interactive, minimalistic, responsive, and user friendly
-              UI. Developed by clean, modular, scalable, and functional code.
-            </p>
+            <p>Experienced mobile app & website developer who has a track record of success creating apps & websites that are both well-received & commercially viable. Skilled with working as a team & incorporating input into projects. Ability to always look for ways to improve upon an already existing app to keep people downloading it & enjoying it. Strong eye for detail & tenacity to never quit on something until it is absolutely perfect.</p>
             <ul class="about-info mt-4">
               <li>
                 <span>Name:</span>
