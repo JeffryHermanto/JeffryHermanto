@@ -21,9 +21,6 @@
               <a href="https://instagram.com/jeffryhermanto" target="_blank">
                 <i class="fa fa-instagram transition"></i>
               </a>
-              <a href="https://facebook.com/jeffryhermanto" target="_blank">
-                <i class="fa fa-facebook transition"></i>
-              </a>
               <a href="https://twitter.com/jeffryhermanto" target="_blank">
                 <i class="fa fa-twitter transition"></i>
               </a>
