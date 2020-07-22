@@ -38,7 +38,7 @@
               <div class="service-block text-center">
                 <i class="fa fa-dashboard"></i>
                 <h4>Tech Support</h4>
-                <p>I provide website maintenance to keep your website error-free and up to date.</p>
+                <p>I provide tech maintenance to keep your website / mobile apps error-free and up to date.</p>
               </div>
               <!-- End Single Service Block -->
             </div>

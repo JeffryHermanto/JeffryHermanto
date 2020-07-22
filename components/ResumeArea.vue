@@ -66,7 +66,7 @@
                 <span class="date">2007 - Present</span>
                 <h4>Information Technology Related Certificates</h4>
                 <span class="position">Self-Taught via Online Courses</span>
-                <p>What is an online certificate in IT? IT, or information technology, is technology related to the use, development, and maintenance of computers and computer software. Students typically participate in synchronous and asynchronous courses that provide a foundational knowledge of topics related to various facets of the field. Students often learn to identify and provide solutions to issues with computer systems through proven remediation methods, such as troubleshooting. An online certificate program in IT may also require students to define and utilize the operational characteristics of application systems and computer systems components.</p>
+                <p>Clean Code, Design Patterns, Git Mastery, App Architecture, JavaScript Frameworks, etc.</p>
               </div>
             </div>
           </div>
