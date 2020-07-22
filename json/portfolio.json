@@ -99,13 +99,6 @@
   },
   {
     "filter": "web-site",
-    "image": "nutrix.jpg",
-    "type": "Web Site",
-    "title": "Nutrix",
-    "url": "https://nutrix-29e3f.firebaseapp.com"
-  },
-  {
-    "filter": "web-site",
     "image": "lifegems.jpg",
     "type": "Web Site",
     "title": "LifeGems",
