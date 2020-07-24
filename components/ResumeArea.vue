@@ -66,7 +66,7 @@
                 <span class="date">2007 - Present</span>
                 <h4>Information Technology Related Certificates</h4>
                 <span class="position">Self-Taught via Online Courses</span>
-                <p>Clean Code, Design Patterns, Git Mastery, App Architecture, JavaScript Frameworks, etc.</p>
+                <p>Clean Code, Design Patterns, Git Mastery, App Architecture, Programming Languages, Frameworks, etc.</p>
               </div>
             </div>
           </div>
@@ -222,6 +222,16 @@
               </div>
               <div class="col-md-6">
                 <div class="progress-wrap">
+                  <h5>Go</h5>
+                  <div class="progress">
+                    <div class="progress-bar" style="width:75%">
+                      <span>75%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="progress-wrap">
                   <h5>Flutter</h5>
                   <div class="progress">
                     <div class="progress-bar" style="width:95%">
@@ -325,6 +335,6 @@
 </template>
 <script>
 export default {
-  name: "ResumeArea"
+  name: "ResumeArea",
 };
 </script>
