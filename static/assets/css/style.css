@@ -926,6 +926,9 @@ h2.service-title {
 .test-slider .author-info .position span {
   color: #90acd1;
 }
+.test-slider .author-info .position span a {
+  color: #90acd1;
+}
 
 /* =================================== */
 /*    Blog Area Section

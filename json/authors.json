@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Marcelo Milhomem",
+    "image": "marcelo.jpg",
+    "position": "CTO",
+    "company": "Loadsmile",
+    "url": "https://www.loadsmile.com.au",
+    "testimony": "Having supervised Jeffry Hermanto for the last few months, I have witnessed his concerted efforts to improve the daily performance of his tasks, and I have observed his desire to meet the demands and expectations of his co-workers and environment. Given the integrity and strength of commitment demonstrated by his past performance, I would like to recommend Jeffry Hermanto as a suitable candidate for the position of Mobile Engineer at your company."
+  },
+  {
+    "name": "Antakirana",
+    "image": "antakirana.jpg",
+    "position": "Lead Pastor",
+    "company": "MCC BSD",
+    "url": "https://mccbsd.online.church",
+    "testimony": "I have worked with Jeffry on two complex projects and in both cases, the work was done on time, on budget, and with a high degree of professionalism. Across the board, everyone enjoyed working with Jeffry. Jeffry not only did exceptional work based on the specs we gave him for each project, but he also gave input on how to make the end product even better and cared about how users would engage with the builds. I will be using Jeffry again in the future and would highly recommend his services to anyone."
+  },
+  {
+    "name": "Sari Harasti",
+    "image": "sari.jpg",
+    "position": "Product Manager",
+    "company": "PurpleRain Technologies Inc.",
+    "url": "https://purple-rain.io",
+    "testimony": "I rarely come across real talents who stand out like Jeffry. I had the pleasure of working with Jeffry for 1 years at Sprout Digital Labs, collaborating on several project teams. Jeffry's ability to handle multiple projects was unlike any I’ve seen before and made a dramatic increase in the productivity level of our company. No matter how tense a meeting, Jeffry made sure everyone left with a smile. As a team member or a leader, Jeffry earns my highest recommendation."
+  },
+  {
+    "name": "Adirani Heraputeri",
+    "image": "adirani.jpg",
+    "position": "Project Manager",
+    "company": "ANGIN",
+    "url": "https://www.angin.id",
+    "testimony": "Jeffry's talent and experience proved immensely valuable for our latest web project. He was involved from the very beginning, providing advice and guidance even before we signed the proposal. The work we received from him was top-notch, thoroughly documented, and full of touches that show his commitment to quality. I can’t recommend him highly enough."
+  }
+]
