@@ -6,7 +6,7 @@
         <div class="col-lg-6 offset-lg-3 col-md-12">
           <!-- start testimonial carousel -->
           <div class="test-slider">
-            <!-- start tetimonial item -->
+            <!-- start testimonial item -->
             <div v-for="(author, i) in authors" :key="i" class="test-item">
               <p>{{ author.testimony }}</p>
               <div class="author-info">
@@ -20,7 +20,7 @@
                 </div>
               </div>
             </div>
-            <!-- end tetimonial item -->
+            <!-- end testimonial item -->
           </div>
           <!-- end testimonial carousel -->
         </div>
