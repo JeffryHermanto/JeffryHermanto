@@ -38,5 +38,13 @@
     "company": "ANGIN",
     "url": "https://www.angin.id",
     "testimony": "Jeffry's talent and experience proved immensely valuable for our latest web project. He was involved from the very beginning, providing advice and guidance even before we signed the proposal. The work we received from him was top-notch, thoroughly documented, and full of touches that show his commitment to quality. I can’t recommend him highly enough."
+  },
+  {
+    "name": "dr. Gia Pratama",
+    "image": "gia.jpg",
+    "position": "ER doctor",
+    "company": "RS Prikasih",
+    "url": "https://www.rsprikasih.com",
+    "testimony": "Not many people can implement ideas as Jeffry can. He was solution-oriented and surprisingly he comes up with a Nutrix web application that I did previously on paper (Analisis Kebutuhan Nutrisi). He is also very kind and easy to deal with. What a great professional to have!"
   }
 ]
