@@ -1,0 +1,54 @@
+[
+  {
+    "name": "HTML",
+    "level": "92%"
+  },
+  {
+    "name": "CSS",
+    "level": "92%"
+  },
+  {
+    "name": "JavaScript",
+    "level": "91%"
+  },
+  {
+    "name": "Node.js",
+    "level": "85%"
+  },
+  {
+    "name": "OOP",
+    "level": "90%"
+  },
+  {
+    "name": "Swift",
+    "level": "75%"
+  },
+  {
+    "name": "Java",
+    "level": "70%"
+  },
+  {
+    "name": "Dart",
+    "level": "95%"
+  },
+  {
+    "name": "Go",
+    "level": "85%"
+  },
+  {
+    "name": "Flutter",
+    "level": "95%"
+  },
+  {
+    "name": "Vue.js",
+    "level": "95%"
+  },
+  {
+    "name": "UI/UX",
+    "level": "85%"
+  },
+  {
+    "name": "SEO",
+    "level": "80%"
+  }
+]

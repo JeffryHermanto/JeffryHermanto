@@ -25,9 +25,9 @@
               <li>
                 <a href="#page-3">Skills</a>
               </li>
-              <!-- <li>
+              <li>
                 <a href="#page-4">Awards</a>
-              </li>-->
+              </li>
             </ul>
           </nav>
           <!-- End Resume Nav -->
@@ -36,103 +36,46 @@
           <!-- Start Education -->
           <div id="page-1" class="page one">
             <h3 class="heading">Education</h3>
-            <div class="resume-wrap transition d-flex">
+            <!-- Start Education Item-->
+            <div
+              v-for="(education, i) in educations"
+              :key="i"
+              class="resume-wrap transition d-flex"
+            >
               <div class="icon d-flex align-items-center justify-content-center">
                 <span class="icon-graduation"></span>
               </div>
               <div class="text pl-3">
-                <span class="date">2018</span>
-                <h4>Fullstack Web & Mobile Developer Certificate</h4>
-                <span class="position">Purwadhika Startup and Coding School</span>
-                <p>Programming Fundamental, Data Structure & Algorithm, Web App Front End Development, Web App Back End Development, and Mobile App Development.</p>
+                <span class="date">{{ education.date }}</span>
+                <h4>{{ education.title }}</h4>
+                <span class="position">{{ education.organization }}</span>
+                <p>{{ education.description }}</p>
               </div>
             </div>
-            <div class="resume-wrap transition d-flex">
-              <div class="icon d-flex align-items-center justify-content-center">
-                <span class="icon-graduation"></span>
-              </div>
-              <div class="text pl-3">
-                <span class="date">2017</span>
-                <h4>Digital Marketer Certificate</h4>
-                <span class="position">Purwadhika Startup and Coding School</span>
-                <p>Digital Marketing 101, Social Media Fundamental, Content Marketing (Storytelling & Persuasion Marketing), SEO & Website Optimization, and Google ads & Social ads.</p>
-              </div>
-            </div>
-            <div class="resume-wrap transition d-flex">
-              <div class="icon d-flex align-items-center justify-content-center">
-                <span class="icon-graduation"></span>
-              </div>
-              <div class="text pl-3">
-                <span class="date">2007 - Present</span>
-                <h4>Information Technology Related Certificates</h4>
-                <span class="position">Self-Taught via Online Courses</span>
-                <p>Clean Code, Design Patterns, Git Mastery, App Architecture, Programming Languages, Frameworks, etc.</p>
-              </div>
-            </div>
+            <!-- End Education Item-->
           </div>
           <!-- End Education -->
 
           <!-- Start Experience -->
           <div id="page-2" class="page two">
             <h3 class="heading">Experience</h3>
-            <div class="resume-wrap transition d-flex">
+            <!-- Start Experience Item -->
+            <div
+              v-for="(experience, i) in experiences"
+              :key="i"
+              class="resume-wrap transition d-flex"
+            >
               <div class="icon d-flex align-items-center justify-content-center">
                 <span class="icon-briefcase"></span>
               </div>
               <div class="text pl-3">
-                <span class="date">2020</span>
-                <h4>Senior Mobile Engineer</h4>
-                <span class="position">Loadsmile - Digital Services Australia IV Pty Ltd</span>
-                <p>Design and build advanced applications for the Android and iOS platforms using Flutter. Collaborate with cross-functional teams to define, design, and ship new features. Unit-test code for robustness, including edge cases, usability, and general reliability using techniques like TDD. Work on bug fixing and improving application performance. Continuously discover, evaluate, and implement new technologies to maximize development efficiency. Write clean and readable code. Make use of DDD, Design patterns and advanced Git in order to produce highly maintainable code.</p>
+                <span class="date">{{ experience.date }}</span>
+                <h4>{{ experience.position }}</h4>
+                <span class="position">{{ experience.organization }}</span>
+                <p>{{ experience.description }}</p>
               </div>
             </div>
-            <div class="resume-wrap transition d-flex">
-              <div class="icon d-flex align-items-center justify-content-center">
-                <span class="icon-briefcase"></span>
-              </div>
-              <div class="text pl-3">
-                <span class="date">2019</span>
-                <h4>Senior Software Engineer</h4>
-                <span class="position">Sprout - PT. Tunas Digital Indonesia</span>
-                <p>Create, maintain, and implement the source code to develop web / mobile apps/programs that meet the needs and requirements of the clients using Agile principles with the Scrum framework.</p>
-              </div>
-            </div>
-
-            <div class="resume-wrap transition d-flex">
-              <div class="icon d-flex align-items-center justify-content-center">
-                <span class="icon-briefcase"></span>
-              </div>
-              <div class="text pl-3">
-                <span class="date">2018</span>
-                <h4>COO</h4>
-                <span class="position">PT. Gaji Cermat Indonesia</span>
-                <p>Overseeing the company's day-to-day operations, daily communication with the CEO, creating operations strategies and policies, communicating operational strategies to employees, building employee alignment with company goals (and vice versa), and overseeing human resources development.</p>
-              </div>
-            </div>
-
-            <div class="resume-wrap transition d-flex">
-              <div class="icon d-flex align-items-center justify-content-center">
-                <span class="icon-briefcase"></span>
-              </div>
-              <div class="text pl-3">
-                <span class="date">2018</span>
-                <h4>iOS Developer</h4>
-                <span class="position">Apple Developer Academy</span>
-                <p>Solving challenges from communities using collaborative approach.</p>
-              </div>
-            </div>
-
-            <div class="resume-wrap transition d-flex">
-              <div class="icon d-flex align-items-center justify-content-center">
-                <span class="icon-briefcase"></span>
-              </div>
-              <div class="text pl-3">
-                <span class="date">2007 - Present</span>
-                <h4>Web & Mobile Developer</h4>
-                <span class="position">Freelance</span>
-                <p>Designing, implementing, and modifying websites or mobile apps, from layout to function and according to a client's specifications. Strive to create visually appealing sites that feature user-friendly design and clear navigation.</p>
-              </div>
-            </div>
+            <!-- End Experience Item -->
           </div>
           <!-- End Experience -->
 
@@ -140,192 +83,39 @@
           <div id="page-3" class="page three">
             <h3 class="heading">Skills</h3>
             <div class="row">
-              <div class="col-md-6">
+              <!-- Start Skill Item -->
+              <div v-for="(skill, i) in skills" :key="i" class="col-md-6">
                 <div class="progress-wrap">
-                  <h5>HTML</h5>
+                  <h5>{{ skill.name }}</h5>
                   <div class="progress">
-                    <div class="progress-bar" style="width:95%">
-                      <span>95%</span>
+                    <div class="progress-bar" :style="`width:${skill.level}`">
+                      <span>{{ skill.level }}</span>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-md-6">
-                <div class="progress-wrap">
-                  <h5>CSS</h5>
-                  <div class="progress">
-                    <div class="progress-bar" style="width:90%">
-                      <span>90%</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-wrap">
-                  <h5>JavaScript</h5>
-                  <div class="progress">
-                    <div class="progress-bar" style="width:93%">
-                      <span>93%</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-wrap">
-                  <h5>Node.js</h5>
-                  <div class="progress">
-                    <div class="progress-bar" style="width:85%">
-                      <span>85%</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-wrap">
-                  <h5>OOP</h5>
-                  <div class="progress">
-                    <div class="progress-bar" style="width:90%">
-                      <span>90%</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-wrap">
-                  <h5>Swift</h5>
-                  <div class="progress">
-                    <div class="progress-bar" style="width:75%">
-                      <span>75%</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-wrap">
-                  <h5>Java</h5>
-                  <div class="progress">
-                    <div class="progress-bar" style="width:70%">
-                      <span>70%</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-wrap">
-                  <h5>Dart</h5>
-                  <div class="progress">
-                    <div class="progress-bar" style="width:95%">
-                      <span>95%</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-wrap">
-                  <h5>Go</h5>
-                  <div class="progress">
-                    <div class="progress-bar" style="width:75%">
-                      <span>75%</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-wrap">
-                  <h5>Flutter</h5>
-                  <div class="progress">
-                    <div class="progress-bar" style="width:95%">
-                      <span>95%</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-wrap">
-                  <h5>Vue.js</h5>
-                  <div class="progress">
-                    <div class="progress-bar" style="width:95%">
-                      <span>95%</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-wrap">
-                  <h5>UI/UX</h5>
-                  <div class="progress">
-                    <div class="progress-bar" style="width:85%">
-                      <span>85%</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-wrap">
-                  <h5>SEO</h5>
-                  <div class="progress">
-                    <div class="progress-bar" style="width:80%">
-                      <span>80%</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <!-- End Skill Item -->
             </div>
           </div>
           <!-- End Skills -->
 
           <!-- Start Awards -->
-          <!-- <div id="page-4" class="page four">
+          <div id="page-4" class="page four">
             <h3 class="heading">Awards</h3>
-            <div class="resume-wrap transition d-flex">
+            <!-- Start Awards Item -->
+            <div v-for="(award, i) in awards" :key="i" class="resume-wrap transition d-flex">
               <div class="icon d-flex align-items-center justify-content-center">
                 <span class="icon-badge"></span>
               </div>
               <div class="text pl-3">
-                <span class="date">2014-2015</span>
-                <h4>Top 10 Web Developer</h4>
-                <span class="position">Mansoura University</span>
-                <p>
-                  Lorem ipsum, or lipsum as it is sometimes known, is dummy text
-                  used in laying out print, graphic or web designs. The passage
-                  is attributed to an unknown typesetter in the 15th century who
-                  is thought to have.
-                </p>
+                <span class="date">{{ award.date }}</span>
+                <h4>{{ award.name }}</h4>
+                <span class="position">{{ award.organization }}</span>
+                <p>{{ award.description }}</p>
               </div>
             </div>
-            <div class="resume-wrap transition d-flex">
-              <div class="icon d-flex align-items-center justify-content-center">
-                <span class="icon-badge"></span>
-              </div>
-              <div class="text pl-3">
-                <span class="date">2014-2015</span>
-                <h4>Top 5 LeaderShip Exellence Winner</h4>
-                <span class="position">Mansoura University</span>
-                <p>
-                  Lorem ipsum, or lipsum as it is sometimes known, is dummy text
-                  used in laying out print, graphic or web designs. The passage
-                  is attributed to an unknown typesetter in the 15th century who
-                  is thought to have.
-                </p>
-              </div>
-            </div>
-            <div class="resume-wrap transition d-flex">
-              <div class="icon d-flex align-items-center justify-content-center">
-                <span class="icon-badge"></span>
-              </div>
-              <div class="text pl-3">
-                <span class="date">2014-2015</span>
-                <h4>Top 4 Web Tester</h4>
-                <span class="position">Mansoura University</span>
-                <p>
-                  Lorem ipsum, or lipsum as it is sometimes known, is dummy text
-                  used in laying out print, graphic or web designs. The passage
-                  is attributed to an unknown typesetter in the 15th century who
-                  is thought to have.
-                </p>
-              </div>
-            </div>
-          </div>-->
+            <!-- End Awards Item -->
+          </div>
           <!-- End Awards -->
         </div>
       </div>
@@ -333,8 +123,22 @@
   </section>
   <!-- Resume Area End -->
 </template>
+
 <script>
+import educations from "~/jsons/educations.json";
+import experiences from "~/jsons/experiences.json";
+import skills from "~/jsons/skills.json";
+import awards from "~/jsons/awards.json";
+
 export default {
   name: "ResumeArea",
+  data() {
+    return {
+      educations,
+      experiences,
+      skills,
+      awards,
+    };
+  },
 };
 </script>

@@ -53,14 +53,14 @@
 </template>
 
 <script>
-import portfolio from "~/json/portfolio.json";
+import portfolio from "~/jsons/portfolio.json";
 
 export default {
   name: "WorksArea",
   data() {
     return {
-      portfolio
+      portfolio,
     };
-  }
+  },
 };
 </script>

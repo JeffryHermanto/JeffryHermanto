@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import authors from "~/json/authors.json";
+import authors from "~/jsons/authors.json";
 
 export default {
   name: "TestimonialArea",
