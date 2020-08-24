@@ -1,22 +1,13 @@
-# Jeffry Hermanto
+# Hi, I'm Jeffry
 
 > Software Engineer Companies LOVE to HIRE
 
-## Build Setup
+![image](documentation/banner.jpg)
 
-```bash
-# install dependencies
-$ npm install
+I'm a software engineer who is passionate about creating clean, beautiful, interactive, minimalistic, responsive, and user friendly UI. Developed by clean, modular, scalable, and functional code. Some technologies I enjoy working with include Flutter, Nuxt.js, and Firebase.
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+---
 
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+#### Jeffry Hermanto _jeffryhermanto@gmail.com_
+[GitHub](https://github.com/JeffryHermanto) | [LinkedIn](https://www.linkedin.com/in/jeffryhermanto) | [Instagram](https://www.instagram.com/jeffryhermanto) |
+[Twitter](https://www.twitter.com/jeffryhermanto) | [YouTube](https://www.youtube.com/jeffryhermanto)
