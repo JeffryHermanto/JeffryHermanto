@@ -2,7 +2,7 @@
 
 > Software Engineer Companies LOVE to HIRE
 
-![image](banner.jpg)
+![image](/banner.jpg)
 
 I'm a software engineer who is passionate about creating clean, beautiful, interactive, minimalistic, responsive, and user friendly UI. Developed by clean, modular, scalable, and functional code. Some technologies I enjoy working with include Flutter, Nuxt.js, and Firebase.
 
