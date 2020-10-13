@@ -1,6 +1,13 @@
 [
   {
     "filter": "mobile-apps",
+    "image": "rima_kata.jpg",
+    "type": "Mobile Apps",
+    "title": "Rima Kata",
+    "url": "https://apps.apple.com/id/app/id1535370735"
+  },
+  {
+    "filter": "mobile-apps",
     "image": "tci_trucking.jpg",
     "type": "Mobile Apps",
     "title": "TCI Trucking",
