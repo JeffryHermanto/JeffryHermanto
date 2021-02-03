@@ -1,6 +1,13 @@
 [
   {
     "filter": "mobile-apps",
+    "image": "eightyniners.jpg",
+    "type": "Mobile Apps",
+    "title": "EightyNiners",
+    "url": "https://apps.apple.com/us/app/eightyniners/id1551980932"
+  },
+  {
+    "filter": "mobile-apps",
     "image": "haixin_notebook.jpg",
     "type": "Mobile Apps",
     "title": "Haixin Notebook",
