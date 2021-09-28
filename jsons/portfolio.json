@@ -1,6 +1,13 @@
 [
   {
     "filter": "mobile-apps",
+    "image": "pinangmikro.jpg",
+    "type": "Mobile Apps",
+    "title": "Pinang Mikro",
+    "url": "https://apps.apple.com/id/app/pinang-mikro/id1587660043"
+  },
+  {
+    "filter": "mobile-apps",
     "image": "eightyniners.jpg",
     "type": "Mobile Apps",
     "title": "EightyNiners",

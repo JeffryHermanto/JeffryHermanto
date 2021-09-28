@@ -18,21 +18,29 @@
                 <span>Freelancer.</span>
                 <span>Musician.</span>
               </div>
-              <span class="LR-C" id="typed" style="white-space:pre;"></span>
+              <span class="LR-C" id="typed" style="white-space: pre"></span>
             </div>
-            <p>I have a passion for creating clean, beautiful, interactive, minimalistic, responsive, and user friendly UI. Developed by clean, modular, scalable, and functional code.</p>
+            <p>
+              I have a passion for creating clean, beautiful, interactive,
+              minimalistic, responsive, and user friendly UI. Developed by
+              clean, modular, scalable, and functional code.
+            </p>
             <a
               href="assets/pdf/CV_Jeffry_Hermanto.pdf"
               target="_blank"
               class="btn radius-btn"
-            >Download CV</a>
+              >Download CV</a
+            >
           </div>
           <!-- End Hero Caption -->
         </div>
         <div class="col-lg-6 d-none d-lg-block">
           <!-- Hero Right Image -->
           <div class="hero-img">
-            <img src="assets/img/welcome-area/hero_right.png" alt="Hero image" />
+            <img
+              src="assets/img/welcome-area/hero_right.png"
+              alt="Hero image"
+            />
           </div>
         </div>
       </div>
@@ -48,6 +56,6 @@
 
 <script>
 export default {
-  name: "HeroArea"
+  name: "HeroArea",
 };
 </script>
