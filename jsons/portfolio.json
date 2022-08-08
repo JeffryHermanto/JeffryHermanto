@@ -1,6 +1,13 @@
 [
   {
     "filter": "mobile-apps",
+    "image": "pinang_prakarsa.png",
+    "type": "Mobile Apps",
+    "title": "Pinang Prakarsa",
+    "url": "https://play.google.com/store/apps/details?id=id.co.bankraya.pinangprakarsa"
+  },
+  {
+    "filter": "mobile-apps",
     "image": "orbitrade.jpg",
     "type": "Mobile Apps",
     "title": "Orbitrade",
