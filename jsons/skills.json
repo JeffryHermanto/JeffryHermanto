@@ -12,6 +12,10 @@
     "level": "91%"
   },
   {
+    "name": "TypeScript",
+    "level": "92%"
+  },
+  {
     "name": "Node.js",
     "level": "85%"
   },
@@ -25,7 +29,7 @@
   },
   {
     "name": "Java",
-    "level": "70%"
+    "level": "80%"
   },
   {
     "name": "Dart",
@@ -33,7 +37,7 @@
   },
   {
     "name": "Go",
-    "level": "85%"
+    "level": "75%"
   },
   {
     "name": "Flutter",
@@ -41,6 +45,10 @@
   },
   {
     "name": "Vue.js",
+    "level": "90%"
+  },
+  {
+    "name": "Svelte",
     "level": "95%"
   },
   {
