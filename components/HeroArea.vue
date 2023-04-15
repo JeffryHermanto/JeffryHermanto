@@ -15,8 +15,6 @@
                 <span>Software Engineer.</span>
                 <span>Web Developer.</span>
                 <span>Mobile Developer.</span>
-                <span>Freelancer.</span>
-                <span>Musician.</span>
               </div>
               <span class="LR-C" id="typed" style="white-space: pre"></span>
             </div>
@@ -56,6 +54,6 @@
 
 <script>
 export default {
-  name: "HeroArea",
+  name: "HeroArea"
 };
 </script>
