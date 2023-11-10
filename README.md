@@ -10,5 +10,5 @@ I'm a software engineer who is passionate about creating clean, beautiful, inter
 
 #### Jeffry Hermanto _jeffryhermanto@gmail.com_
 
-[GitHub](https://github.com/JeffryHermanto) | [LinkedIn](https://www.linkedin.com/in/jeffryhermanto) | [Instagram](https://www.instagram.com/jeffryhermanto) |
+[Personal Site](https://jeffryHermanto.com) | [GitHub](https://github.com/JeffryHermanto) | [LinkedIn](https://www.linkedin.com/in/jeffryhermanto) | [Instagram](https://www.instagram.com/jeffryhermanto) |
 [Twitter](https://www.twitter.com/jeffryhermanto) | [YouTube](https://www.youtube.com/jeffryhermanto)
