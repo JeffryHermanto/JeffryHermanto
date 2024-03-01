@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import cv from '$assets/CV_Jeffry_Hermanto.pdf';
+	import '$css/main.css';
 	import jeffry from '$images/jeffry.jpg';
 
 	export let data: PageData;

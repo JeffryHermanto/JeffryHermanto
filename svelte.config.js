@@ -14,8 +14,10 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			$assets: './src/assets',
+			$css: './src/css',
 			$images: './src/images',
-			$lib: './src/lib'
+			$lib: './src/lib',
+			$types: './src/types'
 		}
 	}
 };

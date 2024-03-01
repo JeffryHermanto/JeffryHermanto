@@ -1,7 +1,7 @@
 <script lang="ts">
-	import '../css/animations.css';
-	import '../css/main.css';
-	import '../css/minireset.min.css';
+	import '$css/animations.css';
+	import '$css/devicon.min.css';
+	import '$css/minireset.min.css';
 </script>
 
 <svelte:head>

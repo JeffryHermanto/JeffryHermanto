@@ -14,7 +14,7 @@ html {
 }
 
 .wallpaper {
-	background-image: url('../images/city.jpg');
+	background-image: url('$images/city.jpg');
 	background-position: center;
 	background-size: cover;
 	opacity: 0.2;
@@ -26,7 +26,7 @@ html {
 	width: 100%;
 }
 
-.isi {
+.container {
 	display: flex;
 	position: relative;
 	min-height: 100vh;
@@ -57,7 +57,7 @@ html {
 /* Responsiveness */
 
 @media screen and (max-width: 799px) {
-	.isi {
+	.container {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -66,7 +66,7 @@ html {
 }
 
 @media screen and (min-width: 800px) {
-	.isi {
+	.container {
 		align-items: center;
 		justify-content: space-around;
 		justify-content: space-evenly;
