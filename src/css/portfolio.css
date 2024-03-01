@@ -1,0 +1,75 @@
+html {
+	background-color: #00bcf1;
+	background-image: linear-gradient(to bottom right, #00bcf1, #180cac);
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1.5;
+	min-height: 100vh;
+	min-width: 300px;
+	overflow-x: hidden;
+	text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.wallpaper {
+	background-image: url('../images/city.jpg');
+	background-position: center;
+	background-size: cover;
+	opacity: 0.2;
+	position: fixed;
+	display: block;
+	height: 100%;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+.isi {
+	display: flex;
+	position: relative;
+	min-height: 100vh;
+}
+
+.card-image {
+	box-shadow: 0 0rem 0.3rem rgba(0, 0, 0, 0.2);
+}
+
+.techStacks {
+	font-size: 0.7em;
+	font-weight: bold;
+	font-family: 'Montserrat', 'Quicksand', sans-serif;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.card-footer {
+	margin-top: auto;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 799px) {
+	.isi {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 5rem 3rem;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.isi {
+		align-items: center;
+		justify-content: space-around;
+		justify-content: space-evenly;
+		padding: 4rem;
+	}
+}

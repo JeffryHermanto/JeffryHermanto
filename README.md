@@ -4,7 +4,7 @@
 
 ![image](https://github.com/JeffryHermanto/JeffryHermanto/blob/master/banner.jpg)
 
-I'm a software engineer who is passionate about creating clean, beautiful, interactive, minimalistic, responsive, and user friendly UI. Developed by clean, modular, scalable, and functional code. Some technologies I enjoy working with include Flutter and SvelteKit.
+I'm a software engineer who is passionate about creating clean, beautiful, interactive, minimalistic, responsive, and user friendly UI. Developed by clean, modular, scalable, and functional code. Some technologies I enjoy working with include Flutter, SvelteKit, and NestJS.
 
 ---
 
