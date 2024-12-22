@@ -10,13 +10,14 @@ export const load: PageServerLoad = () => {
 
 	const portfolios: Portfolio[] = [
 		{
-			image: portfolioImages.speetch,
+			image: portfolioImages.raya,
 			icon: icons.mobilePhone,
-			title: 'Speetch',
+			title: 'Raya - Digital Bank',
 			subTitle: 'Mobile App',
-			description: 'Speetch is a fun app to measure pitching speed!',
+			description:
+				'Digital savings and transactions in the palm of your hand from Bank Raya (subsidiary of BRI group).',
 			buttonLabel: 'Google Play Store',
-			url: 'https://play.google.com/store/apps/details?id=com.jeffryhermanto.speetch'
+			url: 'https://play.google.com/store/apps/details?id=id.co.bankraya.apps'
 		},
 		{
 			image: portfolioImages.inspiraya,
@@ -29,6 +30,15 @@ export const load: PageServerLoad = () => {
 			url: 'https://play.google.com/store/apps/details?id=id.co.bankraya.pinangprakarsa'
 		},
 		{
+			image: portfolioImages.speetch,
+			icon: icons.mobilePhone,
+			title: 'Speetch',
+			subTitle: 'Mobile App',
+			description: 'Speetch is a fun app to measure pitching speed!',
+			buttonLabel: 'Google Play Store',
+			url: 'https://play.google.com/store/apps/details?id=com.jeffryhermanto.speetch'
+		},
+		{
 			image: portfolioImages.orbitrade,
 			icon: icons.mobilePhone,
 			title: 'Orbitrade',
@@ -37,16 +47,6 @@ export const load: PageServerLoad = () => {
 				'Orbi Trade is an International Mini Account Broker that grows to be a home for traders to trade on various instruments.',
 			buttonLabel: 'Google Play Store',
 			url: 'https://play.google.com/store/apps/details?id=com.hmb.orbitrade.android'
-		},
-		{
-			image: portfolioImages.raya,
-			icon: icons.mobilePhone,
-			title: 'Raya - Digital Bank',
-			subTitle: 'Mobile App',
-			description:
-				'Digital savings and transactions in the palm of your hand from Bank Raya (subsidiary of BRI group).',
-			buttonLabel: 'Google Play Store',
-			url: 'https://play.google.com/store/apps/details?id=id.co.bankraya.apps'
 		},
 		{
 			image: portfolioImages.haixinNotebook,
