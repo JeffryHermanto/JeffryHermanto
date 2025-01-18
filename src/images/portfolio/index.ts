@@ -10,7 +10,7 @@ import nutrix from './nutrix.jpg';
 import orbitrade from './orbitrade.jpg';
 import raya from './raya.jpg';
 import rimaKata from './rima_kata.jpg';
-import speetch from './speetch.png';
+import ballradar from './ballradar.png';
 import surveyPengembanganUsaha from './survey_pengembangan_usaha.jpg';
 import tiketValet from './tiket_valet.jpg';
 
@@ -27,7 +27,7 @@ export {
 	orbitrade,
 	raya,
 	rimaKata,
-	speetch,
+	ballradar,
 	surveyPengembanganUsaha,
 	tiketValet
 };

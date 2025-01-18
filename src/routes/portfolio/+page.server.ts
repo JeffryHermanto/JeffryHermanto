@@ -30,13 +30,13 @@ export const load: PageServerLoad = () => {
 			url: 'https://play.google.com/store/apps/details?id=id.co.bankraya.pinangprakarsa'
 		},
 		{
-			image: portfolioImages.speetch,
+			image: portfolioImages.ballradar,
 			icon: icons.mobilePhone,
-			title: 'Speetch',
+			title: 'BallRadar',
 			subTitle: 'Mobile App',
-			description: 'Speetch is a fun app to measure pitching speed!',
+			description: 'BallRadar is a fun app to measure pitching speed!',
 			buttonLabel: 'Google Play Store',
-			url: 'https://play.google.com/store/apps/details?id=com.jeffryhermanto.speetch'
+			url: 'https://play.google.com/store/apps/details?id=com.jeffryhermanto.ballradar'
 		},
 		{
 			image: portfolioImages.orbitrade,
