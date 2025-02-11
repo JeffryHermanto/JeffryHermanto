@@ -13,6 +13,7 @@ import rimaKata from './rima_kata.jpg';
 import ballradar from './ballradar.png';
 import surveyPengembanganUsaha from './survey_pengembangan_usaha.jpg';
 import tiketValet from './tiket_valet.jpg';
+import moneypulse from './moneypulse.png';
 
 export {
 	attendancePointSystem,
@@ -29,5 +30,6 @@ export {
 	rimaKata,
 	ballradar,
 	surveyPengembanganUsaha,
-	tiketValet
+	tiketValet,
+	moneypulse
 };

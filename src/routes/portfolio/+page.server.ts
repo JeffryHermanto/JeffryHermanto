@@ -20,14 +20,14 @@ export const load: PageServerLoad = () => {
 			url: 'https://play.google.com/store/apps/details?id=id.co.bankraya.apps'
 		},
 		{
-			image: portfolioImages.inspiraya,
+			image: portfolioImages.moneypulse,
 			icon: icons.mobilePhone,
-			title: 'Inspiraya',
+			title: 'MoneyPulse',
 			subTitle: 'Mobile App',
 			description:
-				'Inspiraya is a product from Bank Raya which is intended to meet internal needs in the loan application process.',
+				'MoneyPulse is your ultimate financial checkup app designed to help you track, analyze, and improve your financial well-being.',
 			buttonLabel: 'Google Play Store',
-			url: 'https://play.google.com/store/apps/details?id=id.co.bankraya.pinangprakarsa'
+			url: 'https://play.google.com/store/apps/details?id=com.jeffryhermanto.moneypulse&pli=1'
 		},
 		{
 			image: portfolioImages.ballradar,
@@ -37,6 +37,16 @@ export const load: PageServerLoad = () => {
 			description: 'BallRadar is a fun app to measure pitching speed!',
 			buttonLabel: 'Google Play Store',
 			url: 'https://play.google.com/store/apps/details?id=com.jeffryhermanto.ballradar'
+		},
+		{
+			image: portfolioImages.inspiraya,
+			icon: icons.mobilePhone,
+			title: 'Inspiraya',
+			subTitle: 'Mobile App',
+			description:
+				'Inspiraya is a product from Bank Raya which is intended to meet internal needs in the loan application process.',
+			buttonLabel: 'Google Play Store',
+			url: 'https://play.google.com/store/apps/details?id=id.co.bankraya.pinangprakarsa'
 		},
 		{
 			image: portfolioImages.orbitrade,
