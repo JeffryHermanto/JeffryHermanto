@@ -1,8 +1,12 @@
 <script lang="ts">
 	import moneyPulseAppIcon from '$images/moneypulse_app_icon.png';
 	import type { PageData } from './$types';
+	import DownloadButtons from './DownloadButtons.svelte';
 
 	export let data: PageData;
+
+	const playStoreUrl = 'https://play.google.com/store/apps/details?id=com.example.app';
+	const appStoreUrl = 'https://apps.apple.com/us/app/example-app/id123456789';
 
 	$: ({ downloadFiles } = data);
 </script>
@@ -20,11 +24,15 @@
 <body>
 	<div class="container">
 		<img src={moneyPulseAppIcon} alt="App Icon" class="AppIcon" />
+
 		<h2 class="AppTitle">MoneyPulse</h2>
+
+		<DownloadButtons />
 
 		<h1>Resources</h1>
 
 		<p>Download template berdasarkan berbagai level penghasilan per bulan:</p>
+
 		<ul class="template-list">
 			{#each downloadFiles as file}
 				<li>
@@ -60,6 +68,7 @@
 		margin-right: 0;
 		font-weight: bold;
 	}
+
 	h2 {
 		display: block;
 		font-size: 1.5em;
