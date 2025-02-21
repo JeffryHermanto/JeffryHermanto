@@ -39,6 +39,16 @@ export const load: PageServerLoad = () => {
 			url: 'https://play.google.com/store/apps/details?id=com.jeffryhermanto.ballradar'
 		},
 		{
+			image: portfolioImages.pimak,
+			icon: icons.desktop,
+			title: 'Pinang Maksima',
+			subTitle: 'Dekstop App',
+			description:
+				'Pinang Maksima is a product from Bank Raya, which is a loan designed to support business development, whether for companies or individuals.',
+			buttonLabel: 'View',
+			url: 'https://pinang-maksima.bankraya.co.id'
+		},
+		{
 			image: portfolioImages.inspiraya,
 			icon: icons.mobilePhone,
 			title: 'Inspiraya',
