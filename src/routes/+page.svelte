@@ -68,6 +68,7 @@
 		<ul class="social">
 			{#each social as item}
 				<li>
+					<!-- svelte-ignore a11y_consider_explicit_label -->
 					<a href={item.url} target="_blank">
 						<i class={`fab fa-${item.icon}`}></i>
 					</a>
