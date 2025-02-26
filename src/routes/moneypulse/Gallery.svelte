@@ -12,7 +12,7 @@
 	<p>Get a sneak peek into the MoneyPulse app.</p>
 
 	<div class="row">
-		<div class="pricing-column col-lg-4 col-md-12">
+		<div class="gallery-column col-lg-4 col-md-12">
 			<div class="card">
 				<div class="card-header"><h3>Your Financial Health at a Glance</h3></div>
 				<div class="card-body">
@@ -21,7 +21,7 @@
 			</div>
 		</div>
 
-		<div class="pricing-column col-lg-4 col-md-12">
+		<div class="gallery-column col-lg-4 col-md-12">
 			<div class="card">
 				<div class="card-header"><h3>Monitor Your Net Worth Progress</h3></div>
 				<div class="card-body">
@@ -30,7 +30,7 @@
 			</div>
 		</div>
 
-		<div class="pricing-column col-lg-4 col-md-12">
+		<div class="gallery-column col-lg-4 col-md-12">
 			<div class="card">
 				<div class="card-header"><h3>Easy Navigation</h3></div>
 				<div class="card-body">
@@ -39,7 +39,7 @@
 			</div>
 		</div>
 
-		<div class="pricing-column col-lg-4 col-md-12">
+		<div class="gallery-column col-lg-4 col-md-12">
 			<div class="card">
 				<div class="card-header"><h3>Easy Budgeting</h3></div>
 				<div class="card-body">
@@ -48,7 +48,7 @@
 			</div>
 		</div>
 
-		<div class="pricing-column col-lg-4 col-md-12">
+		<div class="gallery-column col-lg-4 col-md-12">
 			<div class="card">
 				<div class="card-header"><h3>Financial Health Score Explained</h3></div>
 				<div class="card-body">
@@ -57,7 +57,7 @@
 			</div>
 		</div>
 
-		<div class="pricing-column col-lg-4 col-md-12">
+		<div class="gallery-column col-lg-4 col-md-12">
 			<div class="card">
 				<div class="card-header"><h3>Your Data is Safe on Your Device</h3></div>
 				<div class="card-body">
@@ -67,3 +67,11 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	h3 {
+		font-weight: 700;
+		font-size: 1em;
+		margin: 5px;
+	}
+</style>
