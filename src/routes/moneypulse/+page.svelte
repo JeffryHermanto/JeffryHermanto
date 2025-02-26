@@ -1,134 +1,67 @@
 <script lang="ts">
-	import moneyPulseAppIcon from '$images/moneypulse_app_icon.png';
+	import '$css/moneypulse.css';
+	import '@fortawesome/fontawesome-free/css/all.min.css';
 	import type { PageData } from './$types';
-	import DownloadButtons from './DownloadButtons.svelte';
+	import Cta from './CTA.svelte';
+	import Features from './Features.svelte';
+	import Footer from './Footer.svelte';
+	import Gallery from './Gallery.svelte';
+	import Header from './Header.svelte';
+	import RunningText from './RunningText.svelte';
+	import Testimonials from './Testimonials.svelte';
 
 	export let data: PageData;
 
-	const playStoreUrl = 'https://play.google.com/store/apps/details?id=com.example.app';
-	const appStoreUrl = 'https://apps.apple.com/us/app/example-app/id123456789';
-
-	$: ({ downloadFiles } = data);
+	$: ({ title, description, author } = data);
 </script>
 
 <svelte:head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>MoneyPulse - Resources</title>
+	<title>{title}</title>
+	<meta name="description" content={description} />
+	<meta name="author" content={author} />
+
+	<!-- Google Fonts -->
 	<link
 		href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
 		rel="stylesheet"
 	/>
+
+	<!-- Bootstrap CSS-->
+	<link
+		rel="stylesheet"
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+		crossorigin="anonymous"
+	/>
+
+	<!-- JQuery -->
+	<script
+		src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"
+	></script>
+
+	<!-- Popper -->
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"
+	></script>
+
+	<!-- Bootstrap -->
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"
+	></script>
 </svelte:head>
 
-<body>
-	<div class="container">
-		<img src={moneyPulseAppIcon} alt="App Icon" class="AppIcon" />
-
-		<h2 class="AppTitle">MoneyPulse</h2>
-
-		<DownloadButtons />
-
-		<h1>Resources</h1>
-
-		<p>Download template berdasarkan berbagai level penghasilan per bulan:</p>
-
-		<ul class="template-list">
-			{#each downloadFiles as file}
-				<li>
-					<a href={file.path} download={file.fileName} class="download-link">
-						{file.label}
-					</a>
-				</li>
-			{/each}
-		</ul>
-	</div>
-</body>
-
-<style>
-	body {
-		background-color: #196d31;
-		font-family: 'Lato', sans-serif;
-	}
-
-	.container {
-		width: 80%;
-		max-width: 1200px;
-		margin: 0 auto;
-		padding: 36px;
-		background-color: white;
-	}
-
-	h1 {
-		display: block;
-		font-size: 2em;
-		margin-top: 0.67em;
-		margin-bottom: 0.67em;
-		margin-left: 0;
-		margin-right: 0;
-		font-weight: bold;
-	}
-
-	h2 {
-		display: block;
-		font-size: 1.5em;
-		margin-top: 0.83em;
-		margin-bottom: 0.83em;
-		margin-left: 0;
-		margin-right: 0;
-		font-weight: bold;
-	}
-
-	.AppIcon {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 200px;
-	}
-
-	.AppTitle {
-		text-align: center;
-		margin-bottom: 50px;
-	}
-
-	p {
-		font-size: 16px;
-		margin-bottom: 20px;
-		color: #333;
-		line-height: 1.5;
-	}
-
-	.template-list {
-		padding-left: 0;
-		margin: 0;
-		list-style: none;
-	}
-
-	.template-list li {
-		margin-bottom: 12px;
-	}
-
-	.download-link {
-		text-decoration: none;
-		color: #007bff;
-		font-weight: 600;
-		display: inline-block;
-		padding: 10px 15px;
-		background-color: #f0f8ff;
-		border-radius: 6px;
-		width: max-content;
-		transition: all 0.3s ease;
-	}
-
-	.download-link:hover {
-		background-color: #007bff;
-		color: white;
-		transform: scale(1.05);
-	}
-
-	.download-link:focus {
-		outline: 3px solid #0056b3;
-		background-color: #0056b3;
-		color: white;
-	}
-</style>
+<div class="body">
+	<Header />
+	<Features />
+	<Testimonials />
+	<RunningText />
+	<Gallery />
+	<Cta />
+	<Footer />
+</div>
