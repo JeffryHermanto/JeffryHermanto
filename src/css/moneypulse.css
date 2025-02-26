@@ -184,6 +184,7 @@ p {
 		transform: rotate(0);
 	}
 }
+
 @media (max-width: 991px) {
 	.header-title {
 		margin-top: -50px;
@@ -208,5 +209,28 @@ p {
 
 	#gallery p {
 		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 400px) {
+	.navbar-brand img {
+		width: 36px;
+		height: 36px;
+	}
+
+	.navbar-brand {
+		font-size: 23px;
+	}
+
+	.testimonial-text {
+		font-size: 0.9rem;
+	}
+
+	.carousel-item em {
+		font-size: 0.8rem;
+	}
+
+	.carousel-item small {
+		font-size: 0.6rem;
 	}
 }
