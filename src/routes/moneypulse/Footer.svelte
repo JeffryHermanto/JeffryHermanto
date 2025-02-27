@@ -51,7 +51,7 @@
 
 	<div class="container-fluid">
 		<!-- svelte-ignore a11y_consider_explicit_label -->
-		<a href="https://www.instagram.com/jeffryhermanto/" target="_blank">
+		<a href="https://www.instagram.com/moneypulse.id/" target="_blank">
 			<i class="social-icon fa-brands fa-instagram"></i> MoneyPulse on Instagram
 		</a>
 
