@@ -2,10 +2,7 @@
 	import '$css/animations.css';
 	import '$css/devicon.min.css';
 	import '$css/minireset.min.css';
+	import '@fortawesome/fontawesome-free/css/all.min.css';
 </script>
-
-<svelte:head>
-	<script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
-</svelte:head>
 
 <slot />
