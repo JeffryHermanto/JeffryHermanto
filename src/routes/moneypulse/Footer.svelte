@@ -55,7 +55,10 @@
 			<i class="social-icon fa-brands fa-instagram"></i> MoneyPulse on Instagram
 		</a>
 
-		<p>© 2025 Jeffry Hermanto. All rights reserved.</p>
+		<p>
+			© 2025 <a href="https://jeffryhermanto.com" target="_blank">Jeffry Hermanto</a>. All rights
+			reserved.
+		</p>
 	</div>
 </footer>
 
