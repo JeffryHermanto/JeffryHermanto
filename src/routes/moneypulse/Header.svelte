@@ -11,7 +11,7 @@
 	<div class="container-fluid">
 		<!-- Nav Bar -->
 
-		<nav class="navbar navbar-expand-lg navbar-dark">
+		<nav class="navbar navbar-expand-xl navbar-dark">
 			<!-- svelte-ignore a11y_invalid_attribute -->
 			<a class="navbar-brand" href="" style="color: #f1f6be">
 				<img src={logo} width="60" height="60" class="d-inline-block align-top" alt="" />&nbsp
@@ -41,6 +41,9 @@
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#cta">Download</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#footer">Templates</a>
 					</li>
 				</ul>
 			</div>
