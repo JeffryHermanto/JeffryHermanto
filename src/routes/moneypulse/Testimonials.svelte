@@ -1,9 +1,9 @@
 <script lang="ts">
-	import james from '$images/moneypulse/james.png';
-	import jessica from '$images/moneypulse/jessica.png';
-	import maya from '$images/moneypulse/maya.png';
-	import ryan from '$images/moneypulse/ryan.png';
-	import tanya from '$images/moneypulse/tanya.png';
+	import armand from '$images/moneypulse/armand.jpg';
+	import chrysan from '$images/moneypulse/chrysan.jpg';
+	import jenny from '$images/moneypulse/jenny.jpg';
+	import william from '$images/moneypulse/william.jpg';
+	import yuliana from '$images/moneypulse/yuliana.jpg';
 </script>
 
 <section class="colored-section" id="testimonials">
@@ -16,8 +16,8 @@
 					spending habits in an easy-to-understand way. I now feel empowered to take control and
 					make smarter financial decisions!
 				</h2>
-				<img class="testimonial-image" src={jessica} alt="person" />
-				<em>Jessica L. <small>- Marketing Executive, 34</small></em>
+				<img class="testimonial-image" src={yuliana} alt="person" />
+				<em>Yuliana T. <small>- Accountant</small></em>
 			</div>
 
 			<div class="carousel-item container-fluid">
@@ -26,8 +26,8 @@
 					showed me exactly where I could cut back. The personalized insights have helped me create
 					a budget I can stick to and start saving more for the future.
 				</h2>
-				<img class="testimonial-image" src={ryan} alt="person" />
-				<em>Ryan P. <small>- Software Engineer, 27</small></em>
+				<img class="testimonial-image" src={william} alt="person" />
+				<em>William H. <small>- Sound Engineer</small></em>
 			</div>
 
 			<div class="carousel-item container-fluid">
@@ -37,8 +37,8 @@
 					provided me with actionable steps to pay off student loans, build credit, and start
 					saving. I feel more financially literate than ever!"
 				</h2>
-				<img class="testimonial-image" src={james} alt="person" />
-				<em>James H. <small>- Recent Graduate, 23</small></em>
+				<img class="testimonial-image" src={armand} alt="person" />
+				<em>Armand S. <small>- Recent Graduate</small></em>
 			</div>
 
 			<div class="carousel-item container-fluid">
@@ -48,8 +48,8 @@
 					to adjust my financial strategy accordingly. It's been a game-changer for my personal
 					wealth.
 				</h2>
-				<img class="testimonial-image" src={maya} alt="person" />
-				<em>Maya G. <small>- Entrepreneur, 36</small></em>
+				<img class="testimonial-image" src={jenny} alt="person" />
+				<em>Jenny T. <small>- Entrepreneur</small></em>
 			</div>
 
 			<div class="carousel-item container-fluid">
@@ -59,8 +59,8 @@
 					picture of where we stand. It's helped me prioritize our savings goals and cut back on
 					unnecessary spending. Highly recommend it!
 				</h2>
-				<img class="testimonial-image" src={tanya} alt="person" />
-				<em>Tanya W. <small>- Full-Time Parent, 38</small></em>
+				<img class="testimonial-image" src={chrysan} alt="person" />
+				<em>Chrysan L. <small>- Full-Time Parent</small></em>
 			</div>
 		</div>
 
