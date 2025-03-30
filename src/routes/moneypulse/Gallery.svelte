@@ -50,7 +50,7 @@
 
 		<div class="gallery-column col-lg-4 col-md-12">
 			<div class="card">
-				<div class="card-header"><h3>Financial Health Score Explained</h3></div>
+				<div class="card-header"><h3>Financial Health Score Explanation</h3></div>
 				<div class="card-body">
 					<img src={five} alt="Screenshot 5" />
 				</div>
