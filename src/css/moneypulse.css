@@ -1,5 +1,5 @@
 .body {
-	font-family: 'Lato';
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 }
 
@@ -9,7 +9,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Lato';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 }
 
@@ -20,7 +20,7 @@ p {
 /* Headings */
 
 .big-heading {
-	font-family: 'Lato';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 900;
 	font-size: 3.5rem;
 	line-height: 1.5;
@@ -55,7 +55,7 @@ p {
 }
 
 .navbar-brand {
-	font-family: 'Lato';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 2.5rem;
 	font-weight: bold;
 }
@@ -66,7 +66,7 @@ p {
 
 .nav-link {
 	font-size: 1.2rem;
-	font-family: 'Lato';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 }
 
@@ -79,7 +79,7 @@ p {
 /* Title Section */
 
 #title {
-	background-color: #196d31;
+	background-color: #60e198;
 	color: #fff;
 	text-align: left;
 }
@@ -212,7 +212,20 @@ p {
 	}
 }
 
+@media (max-width: 500px) {
+	.big-heading {
+		font-size: 1.8rem;
+		line-height: 1.5;
+	}
+}
+
 @media (max-width: 400px) {
+	.big-heading {
+		font-size: 1.4rem;
+		line-height: 1.5;
+		margin-bottom: 20px;
+	}
+
 	.navbar-brand img {
 		width: 36px;
 		height: 36px;

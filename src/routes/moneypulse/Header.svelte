@@ -11,9 +11,9 @@
 	<div class="container-fluid">
 		<!-- Nav Bar -->
 
-		<nav class="navbar navbar-expand-xl navbar-dark">
+		<nav class="navbar navbar-expand-xl navbar-light">
 			<!-- svelte-ignore a11y_invalid_attribute -->
-			<a class="navbar-brand" href="" style="color: #f1f6be">
+			<a class="navbar-brand" href="" style="color: #1F1F1F; letter-spacing: -1px;">
 				<img src={logo} width="60" height="60" class="d-inline-block align-top" alt="" />&nbsp
 				MoneyPulse
 			</a>
