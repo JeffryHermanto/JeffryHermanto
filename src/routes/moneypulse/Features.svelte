@@ -21,7 +21,7 @@
 
 			<div class="feature-box col-lg-4">
 				<i class="icon fa-solid fa-heart fa-4x"></i>
-				<h3 class="feature-title">User-Friendly Interface</h3>
+				<h3 class="feature-title">Intuitive Design</h3>
 				<p>
 					Designed with ease of use in mind, MoneyPulse features an intuitive interface that
 					simplifies navigation and enhances the user experience.

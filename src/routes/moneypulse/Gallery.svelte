@@ -59,7 +59,7 @@
 
 		<div class="gallery-column col-lg-4 col-md-12">
 			<div class="card">
-				<div class="card-header"><h3>Your Data is Safe on Your Device</h3></div>
+				<div class="card-header"><h3>Easy Customization</h3></div>
 				<div class="card-body">
 					<img src={six} alt="Screenshot 6" />
 				</div>
