@@ -14,7 +14,7 @@
 	<div class="row">
 		<div class="gallery-column col-lg-4 col-md-12">
 			<div class="card">
-				<div class="card-header"><h3>Your Financial Health at a Glance</h3></div>
+				<div class="card-header"><h3>Financial Score Overview</h3></div>
 				<div class="card-body">
 					<img src={one} alt="Screenshot 1" />
 				</div>
@@ -23,7 +23,7 @@
 
 		<div class="gallery-column col-lg-4 col-md-12">
 			<div class="card">
-				<div class="card-header"><h3>Monitor Your Net Worth Progress</h3></div>
+				<div class="card-header"><h3>Net Worth Tracking</h3></div>
 				<div class="card-body">
 					<img src={two} alt="Screenshot 2" />
 				</div>
@@ -32,7 +32,7 @@
 
 		<div class="gallery-column col-lg-4 col-md-12">
 			<div class="card">
-				<div class="card-header"><h3>Easy Navigation</h3></div>
+				<div class="card-header"><h3>Simple Navigation</h3></div>
 				<div class="card-body">
 					<img src={three} alt="Screenshot 3" />
 				</div>
@@ -50,7 +50,7 @@
 
 		<div class="gallery-column col-lg-4 col-md-12">
 			<div class="card">
-				<div class="card-header"><h3>Financial Health Score Explanation</h3></div>
+				<div class="card-header"><h3>Financial Score Details</h3></div>
 				<div class="card-body">
 					<img src={five} alt="Screenshot 5" />
 				</div>
@@ -59,7 +59,7 @@
 
 		<div class="gallery-column col-lg-4 col-md-12">
 			<div class="card">
-				<div class="card-header"><h3>Easy Customization</h3></div>
+				<div class="card-header"><h3>User-Centric Settings</h3></div>
 				<div class="card-body">
 					<img src={six} alt="Screenshot 6" />
 				</div>

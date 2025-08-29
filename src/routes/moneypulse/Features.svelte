@@ -3,29 +3,20 @@
 		<div class="row">
 			<div class="feature-box col-lg-4">
 				<i class="icon fa-solid fa-stethoscope fa-4x"></i>
-				<h3 class="feature-title">Financial Analysis</h3>
-				<p>
-					MoneyPulse provides a detailed evaluation of your financial status, offering insights into
-					various aspects of your financial well-being.
-				</p>
+				<h3 class="feature-title">Health Check</h3>
+				<p>Know your numbers, know your financial health—your money checkup made simple.</p>
 			</div>
 
 			<div class="feature-box col-lg-4">
 				<i class="icon fa-solid fa-money-bills fa-4x"></i>
-				<h3 class="feature-title">Budgeting Tools</h3>
-				<p>
-					The app allows you to set up budgets by predefined categories, helping you manage your
-					spending and savings effectively.
-				</p>
+				<h3 class="feature-title">Budget Tools</h3>
+				<p>Set budgets by predefined categories to better manage spending and saving.</p>
 			</div>
 
 			<div class="feature-box col-lg-4">
 				<i class="icon fa-solid fa-heart fa-4x"></i>
-				<h3 class="feature-title">Intuitive Design</h3>
-				<p>
-					Designed with ease of use in mind, MoneyPulse features an intuitive interface that
-					simplifies navigation and enhances the user experience.
-				</p>
+				<h3 class="feature-title">Smart Design</h3>
+				<p>Intuitive interface designed for easy navigation and a better user experience.</p>
 			</div>
 		</div>
 	</div>

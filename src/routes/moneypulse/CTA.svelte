@@ -6,7 +6,7 @@
 
 <section class="colored-section" id="cta">
 	<div class="container-fluid">
-		<h3 class="big-heading">Take Control of Your Finances!</h3>
+		<h3 class="big-heading">Know Your Numbers. Know Your Health, Financially.</h3>
 
 		<a href={appStoreUrl} target="_blank">
 			<button class="download-button btn btn-lg btn-dark" type="button">
