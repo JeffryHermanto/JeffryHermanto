@@ -25,7 +25,7 @@ export const load: PageServerLoad = () => {
 			title: 'MoneyPulse',
 			subTitle: 'Mobile App',
 			description:
-				'MoneyPulse is your ultimate financial checkup app designed to help you track, analyze, and improve your financial well-being.',
+				'MoneyPulse is a financial checkup app that shows your financial health score at a glance, based on your entered net worth and cash flow.',
 			buttonLabel: 'App Landing Page',
 			url: 'https://jeffryhermanto.com/moneypulse'
 		},
