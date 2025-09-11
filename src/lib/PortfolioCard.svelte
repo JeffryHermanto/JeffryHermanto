@@ -1,5 +1,7 @@
 <script lang="ts">
-	export let portfolio: any;
+	import type { Portfolio } from '$types/portfolio.type';
+
+	export let portfolio: Portfolio;
 </script>
 
 <div class="column is-half-tablet is-one-third-desktop">
@@ -28,10 +30,12 @@
 		</div>
 
 		<footer class="card-footer">
-			{#if portfolio.buttonLabel && portfolio.url}
-				<a href={portfolio.url} target="_blank" class="card-footer-item">
-					<i class="fas fa-link"></i>&nbsp; {portfolio.buttonLabel}
-				</a>
+			{#if portfolio.links.length != 0}
+				{#each portfolio.links as link}
+					<a href={link['url']} target="_blank" class="card-footer-item">
+						<i class={link['icon']}></i>&nbsp; {link['buttonLabel']}
+					</a>
+				{/each}
 			{/if}
 		</footer>
 	</div>

@@ -4,6 +4,5 @@ export type Portfolio = {
 	title: string;
 	subTitle: string;
 	description: string;
-	buttonLabel?: string;
-	url?: string;
+	links: Array<any>;
 };
