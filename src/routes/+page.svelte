@@ -21,7 +21,7 @@
 		},
 		{
 			url: 'https://twitter.com/jeffryhermanto',
-			icon: 'twitter'
+			icon: 'x-twitter'
 		}
 	];
 
